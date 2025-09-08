@@ -138,3 +138,26 @@ insert into Archivos
 (8, 'Versión Antigua', 'pptx', 'Versión anterior de la presentación', 8, 204800, '2023-05-15', '2023-05-16', 1);
 go
 
+INSERT INTO ArchivosCompartidos (IDArchivo, IDUsuario, IDPermiso, FechaCompartido) VALUES
+-- 1
+(1 , 6 , 1, '2022-05-11'),  -- Informe Anual - John Smith - Lectura
+(2 , 7 , 2, '2022-06-15'),  -- Foto de perfil - Emily Johnson - Comentario
+(3 , 8 , 3, '2023-01-12'),  -- Backup Sistema - Michael Williams - Escritura
+(4 , 9 , 1, '2020-08-01'),  -- Presentación Proyecto - Jessica Brown - Lectura
+(5 , 5 , 4, '2023-09-20'),  -- Reporte Financiero - Luis Fernández - Administrador
+(6 , 6 , 1, '2022-02-18'),  -- Diagrama de Red - John Smith - Lectura
+(7 , 7 , 3, '2021-10-05'),  -- Manual de Usuario - Emily Johnson - Escritura
+(8 , 8 , 1, '2023-04-17'),  -- Informe de Ventas - Michael Williams - Lectura
+(9 , 9 , 2, '2020-04-25'),  -- Documento Legal - Jessica Brown - Comentario
+(10, 1 , 4, '2022-11-30'),  -- Plan de Marketing - Adrián Clarck - Administrador
+(11, 2 , 1, '2021-06-22'),  -- Presupuesto 2023 - María González - Lectura
+(12, 3 , 3, '2023-02-14'),  -- Logo Empresa - Carlos López - Escritura
+(13, 4 , 2, '2020-01-19'),  -- Audio Conferencia - Ana Martínez - Comentario
+(14, 6 , 1, '2023-03-23'),  -- Video Promocional - John Smith - Lectura
+(15, 7 , 4, '2022-07-29'),  -- Guía de Estilo - Emily Johnson - Administrador
+(16, 7 , 2, '2023-12-05'),  -- Esquema de Base de Datos - Emily Johnson - Comentario
+(17, 8 , 1, '2021-09-16'),  -- Presentación Producto - Michael Williams - Lectura
+(18, 9 , 3, '2022-12-07'),  -- Análisis Competencia - Jessica Brown - Escritura
+(18, 1 , 4, '2024-02-28'),  -- Análisis Competencia - Adrián Clarck - Administrador
+(18, 10, 1, '2023-05-10');  -- Análisis Competencia - David Jones - Lectura
+GO
